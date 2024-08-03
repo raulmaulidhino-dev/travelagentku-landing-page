@@ -115,7 +115,7 @@ nav > .desktop-nav td {
     color: inherit;
     border: solid 2px var(--heading-color);
     padding: .5rem 1.75rem;
-    transition: .5s ease-out color, background-color;
+    transition: color, background-color .5s ease-out;
 }
 
 nav > .desktop-nav td:hover {
@@ -493,7 +493,7 @@ footer > section > a {
         color: inherit;
         padding: .5rem ;
         border-bottom: 1px solid var(--polynesian-blue);
-        transition: .5s ease-out background-color, color, border-radius;
+        transition: background-color, color, border-radius .5s ease-out;
     }
 
     .mobile-nav > ul > li:hover {
