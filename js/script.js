@@ -31,8 +31,20 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Banners Auto Slider Function
+    let moveDirection = "right";
     let moveToNextBanner = () => {
-        currentBannerIndex = (currentBannerIndex + 1) % totalBanners;
+        if (currentBannerIndex === (totalBanners - 1)) {
+            moveDirection = "left";
+        } else if (currentBannerIndex === 0) {
+            moveDirection = "right";
+        }
+
+        if (moveDirection === "right") {
+            currentBannerIndex++;
+        } else if (moveDirection === "left") {
+            currentBannerIndex--;
+        }
+
         const offset = -currentBannerIndex * 100;
 
         // Move Banner Displayer

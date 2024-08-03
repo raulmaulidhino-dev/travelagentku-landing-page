@@ -196,7 +196,7 @@ main > :where(section:not(.our-package)) {
 .banner-displayer {
     height: 100%;
     display: flex;
-    transition: transform 0.75s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 
 .banner-displayer > .banner {
