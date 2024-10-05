@@ -33,15 +33,15 @@ html {
 }
 
 h1 {
-    font-size: var(--step-4);
+    font-size: var(--step-5);
 }
 
 h2 {
-    font-size: var(--step-3);
+    font-size: var(--step-4);
 }
 
 h3 {
-    font-size: var(--step-2);
+    font-size: var(--step-3);
 }
 
 p, div, q, label, input, select {
@@ -115,7 +115,11 @@ nav > .desktop-nav td {
     color: inherit;
     border: solid 2px var(--heading-color);
     padding: .5rem 1.75rem;
-    transition: color, background-color .5s ease-out;
+    transition: color .5s ease-out, background-color .5s ease-out;
+    -webkit-transition: color .5s ease-out, background-color .5s ease-out;
+    -moz-transition: color .5s ease-out, background-color .5s ease-out;
+    -ms-transition: color .5s ease-out, background-color .5s ease-out;
+    -o-transition: color .5s ease-out, background-color .5s ease-out;
 }
 
 nav > .desktop-nav td:hover {
@@ -339,7 +343,7 @@ input.error, select.error {
 }
 
 /* OUR PACKAGES SECTION */
-.our-package > h1 {
+.our-package > h2 {
     color: var(--white);
     background-color: var(--polynesian-blue);
     text-align: center;
