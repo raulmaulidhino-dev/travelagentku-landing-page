@@ -350,7 +350,11 @@ input.error, select.error {
 }
 
 /* OUR PACKAGES SECTION */
-.our-package > h2 {
+.our-package {
+    scroll-margin-top: 5rem;
+}
+
+.our-package > section:first-of-type {
     color: var(--white);
     background-color: var(--polynesian-blue);
     text-align: center;
@@ -408,6 +412,7 @@ input.error, select.error {
     flex-direction: column;
     gap: 3rem;
     align-items: center;
+    scroll-margin-top: 5rem;
 }
 
 .closing > :first-child {
@@ -502,6 +507,7 @@ footer > section > a {
 
     .mobile-nav > ul > li {
         color: inherit;
+        font-size: 1.5rem;
         padding: .5rem ;
         border-bottom: 1px solid var(--polynesian-blue);
         transition: background-color, color, border-radius .5s ease-out;
@@ -511,7 +517,6 @@ footer > section > a {
         color: var(--white);
         background-color: var(--polynesian-blue);
         border-radius: 8px;
-
     }
 
     .mobile-nav > ul > li > a {
