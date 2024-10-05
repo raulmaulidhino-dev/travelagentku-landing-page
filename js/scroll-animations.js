@@ -1,8 +1,3 @@
-// Reveal Animations for Header
-ScrollReveal().reveal('header > .logo', {scale:0, duration: 1000});
-ScrollReveal().reveal('.desktop-nav', {scale:0, duration: 1000});
-ScrollReveal().reveal('.desktop-nav td > a', {delay: 1000, scale:0, duration: 1000});
-
 // Reveal Animations for Hero
 ScrollReveal().reveal('.heading > h1', { delay: 100, scale: 0.5, origin: 'left', duration:'1000' });
 ScrollReveal().reveal('.heading > h3', { delay: 500, distance:'100px', origin: 'bottom', duration:'1000' });
@@ -21,7 +16,7 @@ ScrollReveal().reveal('.benefits-list > div > div', {delay: 500, scale: 0.25, du
 ScrollReveal().reveal('.benefits-list > div > p', {delay: 1000, distance: '100px', origin:'left', duration: 1000});
 
 // Reveal Animations for Contact Us Form section
-ScrollReveal().reveal('#contact_us', {delay: 500, distance: '150px', origin: 'right', duration: 500});
+ScrollReveal().reveal('#contact_us', {delay: 500, scale: 0, duration: 500});
 ScrollReveal().reveal('.contact-us-title > h3', {delay: 1000, scale: 0, origin: 'left', duration: 1000});
 ScrollReveal().reveal('.contact-us-title > p', {delay: 1500, distance:'100px', origin:'top', duration: 1000});
 ScrollReveal().reveal('#contact_us_form > section > label', {delay: 1000, scale: 0, duration: 1000});
