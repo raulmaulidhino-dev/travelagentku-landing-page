@@ -25,7 +25,7 @@ ScrollReveal().reveal('#contact_us_form > section > select', {delay: 1750, dista
 ScrollReveal().reveal('#send_button', {delay: 1750, scale: 0, duration: 1000});
 
 // Reveal Animations for Our Package section
-ScrollReveal().reveal('#our_package > h2', {scale: 0, duration: 1000});
+ScrollReveal().reveal('#our_package > section:first-of-type > h2', {scale: 0, duration: 1000});
 ScrollReveal().reveal('.package > div > img', {scale: 0, duration: 1000});
 ScrollReveal().reveal('.package > section > h4', {distance:'100px', origin: 'left', duration: 1000});
 ScrollReveal().reveal('.package > section > p', {delay: 1000, distance:'100px', origin: 'top', duration: 1000});
