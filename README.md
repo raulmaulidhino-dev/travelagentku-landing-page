@@ -1,5 +1,5 @@
 ## TravelAgentku
-A dummy mini travelling website project, built with HTML, CSS, JavaScript and ScrollReveal (JavaScript Library for Scroll Animation).
+A demo mini travelling website project, built with HTML, CSS, JavaScript and ScrollReveal (JavaScript Library for Scroll Animation).
 
 ## Project Screenshot(s)
 ![TravelAgentku Website Project Preview](https://raulmaulidhino.pages.dev/assets/TravelAgentku-preview-Cgt4AXRA.png)
