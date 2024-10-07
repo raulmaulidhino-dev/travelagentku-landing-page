@@ -1,5 +1,5 @@
 ## TravelAgentku
-A dummy mini travelling website project, built with HTML, CSS, and JavaScript.
+A dummy mini travelling website project, built with HTML, CSS, JavaScript and ScrollReveal (JavaScript Library for Scroll Animation).
 
 ## Project Screenshot(s)
 ![TravelAgentku Website Project Preview](https://raulmaulidhino.pages.dev/assets/TravelAgentku-preview-Cgt4AXRA.png)
@@ -14,4 +14,4 @@ Project goals included using technologies learned up until this point and improv
 One of the main challenges during the project development is Auto-Sliding Animation. This made me spend a few days to understand and implement the logic of Auto-Sliding Animation. 
 Due to project time constraints, I had to be focused more on implementing the layout and form logic to enhance the user interface (UI).
 
-At the end of the day, the technologies I implemented in this project are HTML, CSS and JavaScript. I choose the basic website development tools to follow the rules of the mini course assignment. In the future projects, I plan on exploring CSS and JavaScript frameworks and libraries to help me developing web projects efficiently.
+At the end of the day, the technologies I implemented in this project are HTML, CSS, JavaScript and ScrollReveal. I choose the basic website development tools to follow the rules of the mini course assignment. In the future projects, I plan on exploring CSS and JavaScript frameworks and libraries to help me developing web projects efficiently. Recently, I've added scroll animations using ScrollReveal, a JavaScript library for easily animating elements in the website as they enter/leave the viewport.
