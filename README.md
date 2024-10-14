@@ -2,7 +2,9 @@
 A demo mini travelling website project, built with HTML, CSS, JavaScript and ScrollReveal (JavaScript Library for Scroll Animation).
 
 ## Project Screenshot(s)
-![TravelAgentku Website Project Preview](https://raulmaulidhino.pages.dev/assets/TravelAgentku-preview-Cgt4AXRA.png)
+![TravelAgentku Website Project Preview - Home](screenshots/TravelAgentku-preview-home.png)
+![TravelAgentku Website Project Preview - Our Package](screenshots/TravelAgentku-preview-our-package.png)
+![TravelAgentku Website Project Preview - Call Us](screenshots/TravelAgentku-preview-call-us.png)
 
 ## Installation and Setup Instructions
 Clone down this repository and run in your browser or you could see this project had been deployed into vercel in [travelagentku-landing-page.vercel.app](https://travelagentku-landing-page.vercel.app).
