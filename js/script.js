@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const contactUsForm = document.getElementById("contact_us_form");
     const hamburgerIcon = document.getElementById("hamburger_icon");
     const mobileNav = document.getElementById("mobile_nav");
+    const copyrightLatestYear = document.getElementById("copyright_latest_year");
 
     // Banners Auto Slider
     const bannerDisplayer = document.getElementById("banner_displayer");
@@ -96,5 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
             event.preventDefault();
         }
     });
+
+    copyrightLatestYear.textContent = new Date().getFullYear();
 
 });
