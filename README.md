@@ -1,3 +1,5 @@
+![TravelAgentku Logo Banner](assets/travelagentku-landing-page-og.jpg)
+
 ## TravelAgentku (Landing Page)
 A demo mini travelling website project, built with HTML, CSS, JavaScript and ScrollReveal (JavaScript Library for Scroll Animation).
 
